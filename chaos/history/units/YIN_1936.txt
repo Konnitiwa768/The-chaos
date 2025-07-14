@@ -4,19 +4,19 @@ army = {
         name = "第一師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.9
     }
     division = {
         name = "第二師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.5
     }
     division = {
         name = "第三師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.7
     }
     division = {
         name = "第四師団"
@@ -28,19 +28,19 @@ army = {
         name = "第五師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.9
     }
     division = {
         name = "第六師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.5
     }
     division = {
         name = "第七師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.7
     }
     division = {
         name = "第八師団"
@@ -52,24 +52,24 @@ army = {
         name = "第九師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.9
     }
     division = {
         name = "第十師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.9
     }
     division = {
         name = "第十一師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.9
     }
     division = {
         name = "第十二師団"
         location = 607
         template = "Infantry Division"
-        start_experience_factor = 0.3
+        start_experience_factor = 0.9
     }
 }
