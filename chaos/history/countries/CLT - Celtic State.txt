@@ -19,7 +19,6 @@ stockpile = {
 create_country_leader = {
     name = "??? IV"
     desc = "POLITICS_CLT_DESC"
-    picture = "gfx/leaders/CLT_Celtu_IV.dds"
     expire = "1946.1.1"
     ideology = republican
     traits = { }
