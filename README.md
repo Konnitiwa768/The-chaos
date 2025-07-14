@@ -6,3 +6,4 @@ https://en.wikipedia.org
 https://outlook.live.com
 [https://hf.co/spaces/
 ](https://huggingface.co/spaces/Sakalti/Gemini)
+https://fontstruct.com
