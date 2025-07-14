@@ -18,9 +18,9 @@ stockpile = {
 
 # 政府の初期設定
 create_country_leader = {
-    name = "オクシタニアボール"
-    desc = "POLITICS_OCT_BALL_DESC"
-    picture = "gfx/leaders/OCT_ball.dds"
+    name = "Carole Delga"
+    desc = "PS"
+    picture = "gfx/leaders/OCT/carole_delga.dds"
     expire = "1946.1.1"
     ideology = neutrality
     traits = { }
