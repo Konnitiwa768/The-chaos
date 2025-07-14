@@ -1,0 +1,114 @@
+category = {
+    id = form_dayin
+    icon = generic_territory_idea
+    allowed = {
+        original_tag = YIN
+    }
+    visible = {
+        original_tag = YIN
+    }
+}
+
+decision = {
+    id = YIN_form_nanyue
+    icon = goal_generic_political
+    allowed = {
+        tag = YIN
+        has_stability > 0.5
+        controls_state = 594
+        controls_state = 592
+        controls_state = 593
+        controls_state = 595
+        controls_state = 596
+        controls_state = 613
+        controls_state = 749
+        controls_state = 600
+        controls_state = 602
+        controls_state = 750
+        controls_state = 748
+        controls_state = 603
+        controls_state = 599
+        controls_state = 325
+        controls_state = 747
+        controls_state = 752
+        controls_state = 751
+        controls_state = 605
+        controls_state = 744
+        controls_state = 620
+        controls_state = 283
+        controls_state = 354
+        controls_state = 755
+        controls_state = 759
+        controls_state = 617
+        controls_state = 618
+        NOT = { has_country_flag = YIN_Dayin }
+    }
+    visible = {
+        always = yes
+    }
+    target_root = yes
+    fire_only_once = yes
+    cost = 150
+    removal_cost = -1
+    days_remove = -1
+    ai_will_do = {
+        factor = 1
+    }
+    effect = {
+        add_political_power = 300
+        add_stability = 0.15
+        add_war_support = 0.25
+        set_country_flag = YIN_Dayin
+
+        # グラフィック系（任意）
+        set_graphical_culture = asian_gfx
+        set_graphical_culture_2d = asian_2d
+
+        # 政党名変更
+        set_party_name = {
+            ideology = neutrality
+            long_name = "大殷王朝"
+            name = "大殷"
+        }
+        set_party_name = {
+            ideology = communism
+            long_name = "大殷人民共和国"
+            name = "大殷"
+        }
+        set_party_nam354e = {
+            ideology = democratic
+            long_name = "大殷共和国"
+            name = "大殷"
+        }
+
+        # 中核州追加
+        add_core_of = 594
+        add_core_of = 592
+        add_core_of = 593
+        add_core_of = 595
+        add_core_of = 596
+        add_core_of = 613
+        add_core_of = 749
+        add_core_of = 600
+        add_core_of = 602
+        add_core_of = 750
+        add_core_of = 748
+        add_core_of = 603
+        add_core_of = 599
+        add_core_of = 325
+        add_core_of = 747
+        add_core_of = 752
+        add_core_of = 751
+        add_core_of = 605
+        add_core_of = 744
+        add_core_of = 620
+        add_core_of = 283
+        add_core_of = 354
+        add_core_of = 755
+        add_core_of = 759
+        add_core_of = 617
+        add_core_of = 618
+
+
+    }
+}
