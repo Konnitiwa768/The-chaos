@@ -1,0 +1,8 @@
+ASR = "countries/ASR - Assyria.txt"
+BAY = "countries/BAY - Bavaria.txt"
+CLT = "countries/CLT - Celtic State.txt"
+ILL = "countries/ILL - illia Republic.txt"
+OCT = "countries/OCT - Occitania Empire.txt"
+ROM = "countries/ROM - Roman Empire.txt"
+YIN = "countries/YIN - Yin Dinasty.txt"
+YKT = "countries/YKT - Yakut Republic.txt"
