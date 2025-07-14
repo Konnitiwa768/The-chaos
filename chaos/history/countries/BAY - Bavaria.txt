@@ -19,7 +19,6 @@ stockpile = {
 create_country_leader = {
     name = "??? III"
     desc = "POLITICS_BAY_DESC"
-    picture = "gfx/leaders/BAY_bava_IV.dds"
     expire = "1946.1.1"
     ideology = republican
     traits = { }
