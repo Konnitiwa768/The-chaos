@@ -1,0 +1,17 @@
+# .github/workflows/list-countries-dir.yml
+name: List Countries Directory
+
+on:
+  workflow_dispatch:  # 手動実行用トリガー
+
+jobs:
+  list-dir:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: chaos/history/countries を ls する
+        run: |
+          echo "ディレクトリ内容:"
+          ls -l chaos/history/countries || echo "ディレクトリが存在しません"
