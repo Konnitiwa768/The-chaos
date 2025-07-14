@@ -27,7 +27,7 @@ jobs:
         # tag_filename : "表示名（Wikipediaタイトル）"
         declare -A leaders=(
           ["ROM_Caesar_Augstus"]="Julius Caesar"
-          ["OCT_Carole_Delga]="Carole Delga"
+          ["OCT_Carole_Delga"]="Carole Delga"
         )
 
         for key in "${!leaders[@]}"; do
